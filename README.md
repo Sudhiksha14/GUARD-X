@@ -19,12 +19,6 @@ The system combines **STM32-based embedded controllers**, **ESP-NOW wireless com
 
 ---
 
-# 🏗 System Architecture
-
-The system architecture consists of multiple embedded nodes capable of exchanging telemetry information wirelessly. Each node measures its own motion parameters and obstacle distance while broadcasting this information to nearby Guard-X units for collision analysis.
-
----
-
 # 🔌 Hardware Choice
 
 | Hardware | Purpose |
