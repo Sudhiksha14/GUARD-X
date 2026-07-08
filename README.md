@@ -1,18 +1,4 @@
-# GUARD-X
-Embedded V2V Collision Detection and Alert System
-<p align="left">
-  <img src="https://img.shields.io/github/repo-size/HariharanS-22/Guard-X?style=flat"/>
-  <img src="https://img.shields.io/github/last-commit/HariharanS-22/Guard-X?style=flat"/>
-  <img src="https://img.shields.io/github/issues/HariharanS-22/Guard-X?style=flat"/>
-  <img src="https://img.shields.io/badge/License-Custom-darkblue?style=flat"/>
-  <img src="https://img.shields.io/badge/Built%20with-STM32-blue?style=flat"/>
-</p>
-
 # 🚗 Guard-X – Vehicle-to-Vehicle Early Collision Detection System
-
-<p align="center">
-  <img src="Docs/Image_GuardX.jpeg" width="650">
-</p>
 
 ## 📖 Introduction
 
@@ -35,19 +21,11 @@ The system combines **STM32-based embedded controllers**, **ESP-NOW wireless com
 
 # 🏗 System Architecture
 
-<p align="center">
-<img src="Docs/SystemArchitecture.png" width="750">
-</p>
-
 The system architecture consists of multiple embedded nodes capable of exchanging telemetry information wirelessly. Each node measures its own motion parameters and obstacle distance while broadcasting this information to nearby Guard-X units for collision analysis.
 
 ---
 
-# 🔌 Hardware Configuration
-
-<p align="center">
-<img src="Docs/Circuit-Diagram.png" width="600">
-</p>
+# 🔌 Hardware Choice
 
 | Hardware | Purpose |
 |-----------|---------|
@@ -118,17 +96,6 @@ Obstacle Detection
         ▼
  Blynk Dashboard Update
 ```
-
----
-
-# 🎯 Applications
-
-- Vehicle safety systems
-- Smart transportation
-- Intelligent traffic monitoring
-- Collision avoidance research
-- Embedded systems education
-- IoT-enabled automotive applications
 
 ---
 
